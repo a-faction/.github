@@ -1,114 +1,126 @@
 <div align="center">
 
-<br />
+<img src="https://a-faction.xyz/logo.svg" width="72" alt="A-Faction" />
 
-```
-  ╔═══════════════════════════════╗
-  ║   A·FACTION                   ║
-  ║   Community OS for Discord    ║
-  ╚═══════════════════════════════╝
-```
+# A-Faction
 
-**Turn your Discord server into a structured, automated system.**
+**Ваше сообщество под контролем — люди, роли и процессы в одной системе**
 
-[**Launch CRM →**](https://crm.a-faction.xyz) · [Website](https://a-faction.xyz) · [API](https://api.a-faction.xyz) · [Discord](https://discord.gg/2cMBp8gjYn)
-
-<br />
-
-![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
-![Vue](https://img.shields.io/badge/vue-3-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
-![Nuxt](https://img.shields.io/badge/nuxt-SSR-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/node.js-20.x-339933?style=flat-square&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Discord.js](https://img.shields.io/badge/discord.js-v14-5865F2?style=flat-square&logo=discord&logoColor=white)
-![RBAC](https://img.shields.io/badge/access-RBAC-important?style=flat-square)
-![Auth](https://img.shields.io/badge/auth-JWT-000000?style=flat-square)
-![i18n](https://img.shields.io/badge/i18n-ru%20%7C%20en%20%7C%20ua-blue?style=flat-square)
+[Сайт](https://a-faction.xyz) · [Панель управления](https://crm.a-faction.xyz)
 
 </div>
 
 ---
 
-## The Problem
+## Что это
 
-Discord communities grow fast. Management doesn't.
+A-Faction — платформа для управления Discord-сообществами: составом, ролями, дисциплиной,
+внутренней экономикой и повседневными процессами команды.
 
-You end up with scattered bots, manual role assignments, zero visibility into what's happening — and no single place to control any of it.
-
-> Chaos scales faster than your mods can handle.
-
----
-
-## The Solution
-
-**A-Faction** is a Community OS — a unified platform that brings structure, automation, and visibility to Discord.
-
-One dashboard. One system. Full control.
+Всё, что обычно живёт в десятке таблиц, закреплённых сообщений и чужой памяти, здесь
+собрано в одном месте — с историей, правами доступа и связью с Discord.
 
 ---
 
-## Features
+## Зачем он появился
 
-**Community Control**
-- Role-based access control (RBAC) across your entire server
-- Real-time member management and oversight
-- Centralized permission hierarchy
+Сообщество, которое выросло, упирается в одно и то же.
 
-**Automation**
-- Replace manual workflows with automated processes
-- Event-driven bot actions triggered from the CRM
-- Reduce mod workload without losing oversight
+Состав ведут в таблице, и никто не помнит, кто и когда добавил человека. Выговоры
+раздают на словах, а через месяц спорят, был ли он вообще. Ушедших удаляют — вместе со
+всей их историей. Заявки и начисления держатся на доверии к тому, кто их считает.
+Проблемного человека выгоняют, и он возвращается на следующий день под другим именем.
 
-**Visibility**
-- Full transparency into community activity
-- Structured data instead of Discord chaos
-- One source of truth for your entire server
+Ни одна из этих проблем не решается ещё одним каналом в Discord. Им нужна общая система,
+где у каждого действия есть автор, дата и причина, — и где правила работают сами, а не
+держатся на чьей-то добросовестности.
 
-**Multi-language**
-- Interface available in Russian, English, and Ukrainian
+Об этом A-Faction: не «ещё один инструмент», а замена разрозненным таблицам и устным
+договорённостям одной системой, которой можно доверять.
 
 ---
 
-## Who It's For
+## Что умеет
 
-A-Faction fits any Discord community with internal structure:
+**Люди и состав**
+Вся информация об участнике на одной странице: роль, сроки, соцсети, активность, история
+действий и текущий статус. Быстрый поиск и фильтры по составу. Ушедшие не удаляются, а
+уходят в архив вместе со всеми данными.
 
-- Gaming communities & clans
-- RP servers
-- Educational servers
-- Startup & dev teams
-- Content creator communities
-- Private organizations & admin teams
+**Дисциплина**
+Свои типы взысканий — устные, строгие, предупреждения, иммунитеты. Лимиты, сроки и
+автоматические переходы: когда лимит достигнут, система усиливает взыскание сама.
+Каждое решение уходит в нужный канал Discord с участником и причиной.
 
-**If your server has roles, processes, or workflows — A-Faction fits.**
+**Внутренняя экономика**
+Начисления за активность и отчёты, списания за нарушения, магазин привилегий под свою
+структуру. Операции проходят через одобрение, и каждая сохраняется с датой, причиной и
+автором.
+
+**Отчёты**
+Приём и проверка отчётов участников с фильтрами по фракциям, периодам и статусам.
+Выполненные пункты считаются автоматически, а в каждой записи видно, кто из
+администраторов её проверил, — без споров и кумовства.
+
+**Собеседования и обзвоны**
+Банк вопросов со случайной выдачей для каждого кандидата, оценка несколькими
+администраторами одновременно, история результатов с поиском. Бот записывает голосовой
+канал, и запись можно прослушать прямо на сайте.
+
+**Чёрные списки**
+Записи с причиной и доказательствами, поиск по имени и Discord, подтверждение критичных
+решений. Система сама остановит регистрацию или заявку, если человек уже в списке.
+
+**Расписание**
+Сетка времени под нужды сервера: свои интервалы, шаг слотов, часовые пояса. Бронирование
+с выбором роли или фракции и автоматическая защита от накладок.
+
+**Discord-бот**
+Выговоры, роли, участники и уведомления — прямо из Discord командами. Отправка сообщений
+и оформленных объявлений в каналы без сторонних сервисов. Выдача ролей при регистрации.
+
+**Настройка под себя**
+Подразделения, должности и права, состав колонок и порядок их отображения, видимость
+разделов для конкретных ролей и фракций, собственная логика дисциплины. Система
+подстраивается под структуру проекта, а не наоборот.
 
 ---
 
-## Design Principles
-
-```
-  Simplicity    over   Complexity
-  Automation    over   Manual work
-  Structure     over   Chaos
-  Real-time     over   Delay
-```
-
----
-
-## Transparency Note
-
-This repository is the public-facing overview of the project.
-
-Core implementation details and internal logic are kept private.
-
----
-
-## Links & Contact
+## Где всё это работает
 
 | | |
-|-|-|
-| 🌐 Website | [a-faction.xyz](https://a-faction.xyz) |
-| 🧠 CRM | [crm.a-faction.xyz](https://crm.a-faction.xyz) |
-| ⚙️ API | [api.a-faction.xyz](https://api.a-faction.xyz) |
-| 💬 Discord | [discord.gg/2cMBp8gjYn](https://discord.gg/2cMBp8gjYn) |
-| 👤 Owner | [jalisco](https://discord.com/users/325196577624817674) |
+|---|---|
+| **Сайт** | Рассказывает о возможностях и регистрирует новый сервер через Discord |
+| **Панель управления** | Основная рабочая среда команды в браузере |
+| **Приложение** | Отдельный клиент для Windows и macOS, если удобнее без браузера |
+| **Бот в Discord** | Те же действия и уведомления, не выходя из сервера |
+
+Всё это — одна система с общими данными: действие в Discord видно в панели, изменение в
+панели уходит в Discord.
+
+---
+
+## Для кого
+
+Для сообществ, которые переросли ручное управление: ролевых проектов, игровых фракций,
+команд с внутренней структурой, должностями и дисциплиной. Особенно там, где людей много,
+состав меняется, а решения нужно уметь объяснить.
+
+Подключение — через регистрацию сервера на [сайте](https://a-faction.xyz): понадобится
+Discord-сервер и права администратора в нём.
+
+---
+
+## Языки
+
+Русский, украинский и английский. Светлая и тёмная темы.
+
+---
+
+<div align="center">
+
+[a-faction.xyz](https://a-faction.xyz)
+
+Made with ❤️ for A-Faction
+
+</div>
